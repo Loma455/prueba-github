@@ -1,0 +1,65 @@
+
+/* SELECTOR UNIVERSAL (*) NOS VA A SERVIR PARA RESETEAR ALGUNOS ESTILOS (PROPIEDADES) QUE APLICAN LOS NAVEGADORES POR DEFECTO */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: orange;
+    color: white;
+}
+
+a{
+    color: inherit;
+}
+
+.inicio1{
+    background-color: rgb(201, 56, 201);
+    color: white;
+    display: flex;
+    padding:3rem;
+}
+
+.inicio1-subtitulo{
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.inicio1-titulo{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.inicio1-slogan{
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.inicio1-btn{
+    background-color: black;
+    border-radius: 50px;
+    padding: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.inicio1-terminos{
+    font-size: 12px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.inicio1-textos{
+    width: 60%;
+}
+
+.inicio1-picture{
+    width: 40%;
+}
