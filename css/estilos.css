@@ -6,14 +6,25 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
+
+header{
+    background-color: black;
+}
+
+/* INDEX EN GENERAL */
+
 body{
-    background-color: orange;
+    background-color: black;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
     color: inherit;
 }
+
+/* PRIMERA SECCION DEL INDEX */
 
 .inicio1{
     background-color: rgb(201, 56, 201);
@@ -47,7 +58,7 @@ a{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .inicio1-terminos{
@@ -62,4 +73,43 @@ a{
 
 .inicio1-picture{
     width: 40%;
+    text-align: center;
+}
+
+/* SEGUNDA SECCION DEL INDEX */
+
+.inicio2{
+    background-color: #2941ab;
+    color: #1ed760;
+    text-align: center;
+    padding: 3rem;
+}
+
+.inicio2-btn{
+    display: inline-block;
+    background-color: #1ed760;
+    color: #2941ab;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.inicio2-titulo{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.inicio2-texto{
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
 }
