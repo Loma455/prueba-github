@@ -80,8 +80,13 @@ a{
 
 .inicio2{
     background-color: #2941ab;
+    background-image: url(../imagenes/fondo-ilustracion-1.svg);
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    min-height: 70vh;
     color: #1ed760;
-    text-align: center;
+    text-align: left;
     padding: 3rem;
 }
 
